@@ -2,3 +2,16 @@ img {
     width: 200px;
     height: 200px;
 }
+
+[class^="col"]{
+    max-height:200%;
+    border: 1px solid black;
+}
+
+.img-fuild {
+    max-height: 100%;
+}
+
+body {
+    background-color: darkgreen;
+}
